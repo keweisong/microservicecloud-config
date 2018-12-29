@@ -1,14 +1,14 @@
 ﻿spring: 
-  profiles:
-    active:
+  profiles: 
+    active: 
     - dev
 ---
-spring:
-  profiles:dev  # 开发环境
-  application:
+spring: 
+  profiles: dev  # 开发环境
+  application: 
     name: microservicecloud-config-skw-dev
 ---
-spring:
+spring: 
   profiles: test # 测试环境
   application: 
     name: microservicecloud-config-skw-test
